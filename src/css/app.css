@@ -1,0 +1,12 @@
+.test{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 50px;
+    height: 15px;
+    border: 1px palevioletred solid;
+}

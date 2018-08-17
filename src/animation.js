@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { CSSTransition } from 'react-transition-group'
+import './css/animation.css'
 
 const propTypes = {
     in: PropTypes.bool,
