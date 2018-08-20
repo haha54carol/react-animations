@@ -15,7 +15,7 @@
 .topIn-exit.topIn-exit-active {
   opacity: .01;
   transform: translateY(-60%);
-  transition: opacity 0.2s ease, transform 0.3s ease-out;; 
+  transition: opacity 0.2s ease, transform 0.3s ease-out;
 }
 /*------------------------------------------------------*/
 .bottomIn-enter {
@@ -34,43 +34,7 @@
 .bottomIn-exit.bottomIn-exit-active {
   opacity: .01;
   transform: translateY(60%);
-  transition: opacity 0.2s ease, transform 0.3s ease-out;; 
-}
-/*------------------------------------------------------*/
-.topInBottomOut-enter {
-  transform: translateY(-60%);
-  opacity: .01;
-}
-.topInBottomOut-enter.topInBottomOut-enter-active {
-  transform: translateY(0%);
-  opacity: 1;
-  transition: opacity .3s ease, transform .3s ease;
-}
-.topInBottomOut-exit {
-  transform: translateY(0%) scale(1, 1);
-}
-.topInBottomOut-exit.topInBottomOut-exit-active {
-  transform: translateY(55%) scale(1, 0);
-  transition: transform .2s ease;
-}
-/*------------------------------------------------------*/
-.zoomIn-enter {
-  opacity: .01;
-  transform: scale(0, 0);
-}
-.zoomIn-enter.zoomIn-enter-active {
-  opacity: 1;
-  transform: scale(1, 1);
-  transition: transform .4s ease, opacity .3s ease;
-}
-.zoomIn-exit {
-  opacity: 1;
-  transform: scale(1, 1);
-}
-.zoomIn-exit.zoomIn-exit-active {
-  opacity: .01;
-  transform: scale(0, 0);
-  transition: transform .4s ease, opacity .3s ease;
+  transition: opacity 0.2s ease, transform 0.3s ease-out;
 }
 /*------------------------------------------------------*/
 .leftIn-enter {
@@ -110,83 +74,58 @@
   transform: translateX(100%);
   transition: opacity 0.3s ease, transform 0.2s ease-out;
 }
-/* .rightIn-appear {
-  margin-left: 375px;
-  opacity: .01;
-}
-.rightIn-appear.rightIn-appear-active {
-  margin-left: 0px;
-  opacity: 1;
-  transition: opacity .3s ease, margin .5s ease;
-}
-.rightIn-enter {
-  margin-left: 375px;
-  opacity: .01;
-}
-.rightIn-enter.rightIn-enter-active {
-  margin-left: 0px;
-  opacity: 1;
-  transition: opacity .3s ease, margin .5s ease;
-}
-.rightIn-exit {
-  margin-left: 0px;
-  opacity: 1;
-}
-.rightIn-exit.rightIn-exit-active {
-  margin-left: 375px;
-  opacity: .01;
-  transition: opacity .3s ease, margin .5s ease;
-} */
 /*------------------------------------------------------*/
-.pager-appear {
-  bottom: -80px !important;
-  opacity: .01;
-}
-.pager-appear.pager-appear-active {
-  bottom: 0px !important;
-  opacity: 1;
-  transition: opacity .3s ease, bottom .5s ease;
-}
-.pager-enter {
-  bottom: -80px !important;
-  opacity: .01;
-}
-.pager-enter.pager-enter-active {
-  bottom: 0px !important;
-  opacity: 1;
-  transition: opacity .3s ease, bottom .5s ease;
-}
-.pager-exit {
-  bottom: 0px !important;
-  opacity: 1;
-}
-.pager-exit.pager-exit-active {
-  bottom: -80px !important;
-  opacity: .01;
-  transition: opacity .3s ease, bottom .5s ease;
-}
 
+.topInBottomOut-enter {
+  transform: translateY(-60%);
+  opacity: .01;
+}
+.topInBottomOut-enter.topInBottomOut-enter-active {
+  transform: translateY(0%);
+  opacity: 1;
+  transition: opacity .3s ease, transform .3s ease;
+}
+.topInBottomOut-exit {
+  transform: translateY(0%);
+  opacity: 1;
+}
+.topInBottomOut-exit.topInBottomOut-exit-active {
+  transform: translateY(60%);
+  opacity: .01;
+  transition: opacity 0.3s ease,transform .2s ease;
+}
+/*------------------------------------------------------*/
+.zoomIn-enter {
+  opacity: .01;
+  transform: scale(0, 0);
+}
+.zoomIn-enter.zoomIn-enter-active {
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: transform .4s ease, opacity .3s ease;
+}
+.zoomIn-exit {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.zoomIn-exit.zoomIn-exit-active {
+  opacity: .01;
+  transform: scale(0, 0);
+  transition: transform .4s ease, opacity .3s ease;
+}
 /*------------------------------------------------------*/
 .fade-enter {
   opacity: .01;
-  z-index: 100;
-  transform: translateY(-168px);
 }
 .fade-enter.fade-enter-active {
   opacity: 1;
-  z-index: 200;
-  transform: translateY(0px);
-  transition: opacity 0.3s ease, z-index 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 .fade-exit {
   opacity: 1;
-  z-index: 200;
-  transform: translateY(0px);
 }
 .fade-exit.fade-exit-active {
   opacity: 0.1;
-  z-index: 100;
-  transform: translateY(-168px);
-  transition: opacity 0.3s ease, z-index 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 /*------------------------------------------------------*/

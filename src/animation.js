@@ -3,11 +3,6 @@ import PropTypes from 'prop-types'
 import { CSSTransition } from 'react-transition-group'
 import './css/animation.css'
 
-const propTypes = {
-    in: PropTypes.bool,
-    act: PropTypes.string.isRequired
-};
-
 const Animation = ({ children, ...props }) => {
     const { act, ...rest } = props
     const animateType = act ? act : ''
@@ -29,6 +24,9 @@ const Animation = ({ children, ...props }) => {
 }
 
 
-Animation.propTypes = propTypes;
+Animation.propTypes = {
+    in: PropTypes.bool,
+    act: PropTypes.string.isRequired
+};
 
 export default Animation
