@@ -33,7 +33,6 @@ class Example extends Component {
     return (
       <React.Fragment>
         <div className="title">React-Animations - Examples</div>
-
         <div className="btn" onClick={() => this.setState({ exit: !this.state.exit })}>
           Click Me
         </div>
