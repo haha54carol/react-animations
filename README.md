@@ -53,7 +53,7 @@ import Animation from 'react-animations'
 
 ``` javascript
 import React, { Component } from 'react'
-import Animation from './animation'
+import Animation from 'simple-react-animations'
 
 class Example extends Component {
 
