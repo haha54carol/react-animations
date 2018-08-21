@@ -17,7 +17,8 @@
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test:watch": "nwb test-react --server",
+    "deploy": "gh-pages -d demo/dist"
   },
   "dependencies": {
     "react-transition-group": "^2.4.0"
@@ -31,9 +32,9 @@
     "react-dom": "^16.4.2"
   },
   "author": "haha54carol@gmail.com",
-  "homepage": "",
+  "homepage": "https://haha54carol.github.io/react-animations/",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/haha54carol/react-animations",
   "keywords": [
     "react-component",
     "react-animation",

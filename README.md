@@ -1,6 +1,10 @@
-# react-animations
+# simple-react-animations
 
 > Easiest way to use animation in React.js
+
+## Demo
+
+https://haha54carol.github.io/react-animations/
 
 ## How to Use?
 
@@ -20,7 +24,7 @@ yarn add simple-react-animtaions
 ### Import
 ```javascript
 
-import Animation from 'react-animations'
+import Animation from 'simple-react-animations'
 
 ```
 
