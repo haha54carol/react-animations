@@ -1,3 +1,3 @@
-import Example from './example'
+import Animation from './animation'
 
-export default Example
+export default Animation

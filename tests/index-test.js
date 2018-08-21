@@ -1,7 +1,7 @@
 import expect from 'expect'
 import React from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
-import Component from 'src/'
+import Animation from 'src/'
 
 describe('Component', () => {
   let node
@@ -15,32 +15,15 @@ describe('Component', () => {
   })
 
 
-  it('display a title', () => {
-    render(<Component />, node, () => {
+  it('mount animation', () =>{
+    render(
+    <Animation act="topIn" in={true}>
+      <div>test</div>
+    </Animation>, node, () =>{
       expect(node.innerHTML)
-        .toContain('React-Animations - Examples')
+      .toContain('test')
     })
   })
 
-  it('display a button', () => {
-    render(<Component />, node, () => {
-      expect(node.innerHTML)
-        .toContain('btn')
-        .toContain('Click Me')
-    })
-  })
 
-  it('display 7 types of animations', () =>{
-    render(<Component />, node, () =>{
-      expect(node.innerHTML)
-      .toContain('topIn')
-      .toContain('bottomIn')
-      .toContain('leftIn')
-      .toContain('rightIn')
-      .toContain('topInBottomOut')
-      .toContain('zoomIn')
-      .toContain('fade')
-    })
-  })
-  
 })
