@@ -27,6 +27,7 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "nwb": "0.23.x",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
