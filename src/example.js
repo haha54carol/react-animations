@@ -2,13 +2,6 @@ import React, { Component } from 'react'
 import './css/app.css'
 import Animation from './animation'
 
-const Box = ({ name, onClick }) =>
-  <div className="col-4" onClick={onClick}>
-    <div className="text">{name}</div>
-    <div className="box">Click Me</div>
-  </div>
-
-
 class Example extends Component {
   constructor(props) {
     super(props)
@@ -29,7 +22,6 @@ class Example extends Component {
 
 
   render() {
-
     return (
       <React.Fragment>
         <div className="title">React-Animations - Examples</div>
