@@ -9,10 +9,10 @@
 ```javascript
 
 # npm 
-npm install react-animations
+npm install simple-react-animations
 
 # yarn
-yarn add react-animtaions
+yarn add simple-react-animtaions
 
 ```
 
@@ -44,7 +44,7 @@ import Animation from 'react-animations'
     * topInBottomOut
     * zoomIn
     * fade
-    * 
+    
 2. in ( boolean | optional | default = true)
     When the **in** prop is toggled to **true** the Component will get the **example-enter** CSS class and the **example-enter-active** CSS class added in the next tick. 
 
