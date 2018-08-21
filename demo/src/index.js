@@ -25,7 +25,7 @@ class Demo extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="title">React-Animations - Examples</div>
+        <div className="title">Simple-React-Animations - Examples</div>
         <div className="btn" onClick={() => this.setState({ exit: !this.state.exit })}>
           Click Me
         </div>
