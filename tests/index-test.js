@@ -1,7 +1,6 @@
 import expect from 'expect'
 import React from 'react'
-import {render, unmountComponentAtNode} from 'react-dom'
-
+import { render, unmountComponentAtNode } from 'react-dom'
 import Component from 'src/'
 
 describe('Component', () => {
@@ -15,9 +14,33 @@ describe('Component', () => {
     unmountComponentAtNode(node)
   })
 
-  it('displays a welcome message', () => {
-    render(<Component/>, node, () => {
-      expect(node.innerHTML).toContain('Welcome to React components')
+
+  it('display a title', () => {
+    render(<Component />, node, () => {
+      expect(node.innerHTML)
+        .toContain('React-Animations - Examples')
     })
   })
+
+  it('display a button', () => {
+    render(<Component />, node, () => {
+      expect(node.innerHTML)
+        .toContain('btn')
+        .toContain('Click Me')
+    })
+  })
+
+  it('display 7 types of animations', () =>{
+    render(<Component />, node, () =>{
+      expect(node.innerHTML)
+      .toContain('topIn')
+      .toContain('bottomIn')
+      .toContain('leftIn')
+      .toContain('rightIn')
+      .toContain('topInBottomOut')
+      .toContain('zoomIn')
+      .toContain('fade')
+    })
+  })
+  
 })
