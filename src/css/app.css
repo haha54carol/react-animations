@@ -106,6 +106,18 @@ body{
     font-size: 18px;
 }
 
+.link{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: #a6bce4;
+    outline: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
 
 /* grid */
 .col-4{
