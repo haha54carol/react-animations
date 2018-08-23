@@ -6,6 +6,8 @@
 
 https://haha54carol.github.io/react-animations/
 
+![](https://imgur.com/a/j4lHM5r.gif)
+
 ## How to Use?
 
 ### Installation
