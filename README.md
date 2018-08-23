@@ -6,7 +6,7 @@
 
 https://haha54carol.github.io/react-animations/
 
-![](https://imgur.com/a/j4lHM5r.gif)
+![](https://imgur.com/a/j4lHM5r)
 
 ## How to Use?
 
