@@ -6,7 +6,7 @@
 
 https://haha54carol.github.io/react-animations/
 
-![image](https://github.com/haha54carol/react-animations/blob/master/20180823_102358.gif)
+![image](https://github.com/haha54carol/react-animations/blob/master/simple-react-animations.gif)
 
 ## How to Use?
 
