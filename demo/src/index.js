@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 import Animation from '../../src/'
-import '../../src/css/app.css'
+import '../../css/app.css'
 
 class Demo extends Component {
   constructor(props) {
