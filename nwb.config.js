@@ -5,7 +5,8 @@ module.exports = {
     umd: {
       global: 'ReactAnimations',
       externals: {
-        react: 'React'
+        react: 'React',
+          CSSTransition: 'react-transition-group'
       }
     }
   }
