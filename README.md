@@ -65,7 +65,7 @@ class Example extends Component {
 
   render() {
     return (
-        <Animation act={t} in={true}>
+        <Animation act='topIn' in={true}>
             <div>your component</div>
         </Animation>      
     )
