@@ -1,6 +1,6 @@
 # simple-react-animations
 
-> Easiest way to use animation in your Rect projects.
+> Easiest way to use animation in your React projects.
 
 ## Demo
 
