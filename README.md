@@ -1,4 +1,5 @@
 # simple-react-animations
+[![npm version](https://badge.fury.io/js/react-animations.svg)](https://badge.fury.io/js/react-animations)
 
 > Easiest way to use animation in your Rect projects.
 
